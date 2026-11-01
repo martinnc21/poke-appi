@@ -39,7 +39,6 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      
       if (window.innerHeight + document.documentElement.scrollTop >= document.documentElement.offsetHeight - 100) {
         setVisibleCount((prev) => prev + 20);
       }
